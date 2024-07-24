@@ -57,7 +57,7 @@
     @foreach($data as $data)
     <tr align="center">
         <td>{{$data->title}}</td>
-        <td>{{$data->price}}</td>
+        <td>Rs. {{$data->price}}</td>
         <td>{{$data->description}}</td>
         <td><img height="200" width="200" src="/foodimage/{{$data->image}}"></td>
 

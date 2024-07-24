@@ -120,12 +120,12 @@ body {
 }
 
 ::selection {
-  background: #fb5849;
+  background: green;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #fb5849;
+  background: green;
   color: #fff;
 }
 
@@ -315,12 +315,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fb5849!important;
+  color: green!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fb5849!important;
+  color: green!important;
   opacity: 1;
 }
 
@@ -382,7 +382,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fb5849!important;
+  color: green!important;
   padding-left: 25px;
 }
 
@@ -522,7 +522,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fb5849;
+  color: green;
 }
 
 @media (max-width: 1200px) {
@@ -599,7 +599,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fb5849!important;
+    color: green!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -760,7 +760,7 @@ banner
   right:30px;
   width: 50px;
   height: 50px;
-  background-color: #fb5849;
+  background-color: green;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -789,7 +789,7 @@ banner
   left:30px;
   width: 50px;
   height: 50px;
-  background-color: #fb5849;
+  background-color: green;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -816,7 +816,7 @@ ul.slick-dots {
 }
 
 .Modern-Slider .item.slick-active{
-  animation:Slick-FastSwipeIn 1s both;
+  animation:Slick-FastSwipeIn 0.5s both;
 }
 
 .Modern-Slider .buttons {
@@ -884,7 +884,7 @@ about
   display: inline-block;
   line-height: 70px;
   text-align: center;
-  background-color: #fb5849;
+  background-color: green;
   color: #fff;
   border-radius: 50%;
   transform: translate(-35px, -35px);
@@ -941,8 +941,8 @@ menu
 .info {
   position: relative;
   width: 100%;
-  background-color: #fb5849;
-  border: 1px solid #fb5849;
+  background-color: green;
+  border: 1px solid green;
   transform: translateY(100%)
   translateY(120px)
   translateZ(0);
@@ -971,7 +971,7 @@ menu
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #fb5849;
+  background-color:green;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -1089,7 +1089,7 @@ chefs
 }
 
 #chefs .chef-item:hover .down-content h4 {
-  color: #fb5849;
+  color: green;
 }
 
 #chefs .chef-item .thumb {
@@ -1229,7 +1229,7 @@ reservation
   text-align: center;
   line-height: 70px;
   color: #fff;
-  background-color: #fb5849;
+  background-color: green;
   border-radius: 50%;
   font-size: 24px;
   margin-top: -35px;
@@ -1255,7 +1255,7 @@ reservation
 
 #reservation .phone span a:hover,
 #reservation .message span a:hover {
-  color: #fb5849;
+  color: green;
 }
 
 #contact {
@@ -1308,7 +1308,7 @@ reservation
   margin-top: -10px;
   font-size: 13px;
   color: #fff;
-  background-color: #fb5849;
+  background-color: green;
   padding: 12px 25px;
   width: 100%;
   box-shadow: none;
@@ -1450,7 +1450,7 @@ offers
   right: 0;
   width: 70px;
   height: 70px;
-  background-color: #fb5849;
+  background-color: green;
   display: inline-block;
   text-align: center;
   line-height: 70px;
@@ -1470,7 +1470,7 @@ footer
 footer {
   margin-top: 60px;
   padding: 50px 0px;
-  background-color: #fb5849;
+  background-color: black;
 }
 
 footer .left-text-content p {
@@ -1515,7 +1515,7 @@ footer .right-text-content ul li a {
   font-size: 20px;
   background-color: #fff;
   border-radius: 50%;
-  color: #fb5849;
+  color: green;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -1592,7 +1592,7 @@ responsive
 
 #preloader {
   overflow: hidden;
-  background-color: #fb5849;
+  background-color:green;
   left: 0;
   right: 0;
   top: 0;
